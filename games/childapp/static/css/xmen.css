@@ -1,0 +1,122 @@
+
+
+header{height: 70px;
+width: 100%;
+background-image: url('avenger.jpg');}
+
+h1{position: absolute;
+    color: rgb(51, 241, 13);
+font-style: italic;}
+
+span{color: red;}
+
+nav{display: flex;
+float: right;
+margin-top: 12px;
+padding: 3px;
+font-weight: bold;
+font-size: 18px;}
+
+.box{padding: 10px;
+margin: 0px;
+background-color: rgb(0, 0, 0);}
+
+#set{color: aliceblue;
+text-decoration: none;}
+
+.box:hover{background-color:orange;
+color: black;}
+
+.search{text-align: center;
+height: 25px;
+border:1px solid blue;
+border-radius: 10px;
+margin-left: 80%;}
+
+.container{height: 600px;
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap}
+
+.content1{
+width: 690px;
+text-align: center;
+height: 650px;
+background-color: rgba(188, 181, 194, 0.616);
+border-radius: 10px;
+
+border:2px solid rgba(224, 61, 224, 0.815)}
+
+
+ul{list-style: none;}
+
+#x{border-radius: 50%;
+padding: 20px;
+}
+
+@keyframes round{
+    from{box-shadow: 0px 0px 15px 10px #00ff15;}
+        to{box-shadow: 0px 0px 15px 10px rgb(0, 81, 255);}}
+
+#text{font-size: 25px;}
+
+#down{background-color: rgb(202, 29, 29);
+font-size: 20px;
+color: aliceblue;
+padding: 10px;
+border: 2px solid rgb(0, 17, 255);
+animation: round 3s infinite;
+border-radius: 20px;}
+
+.content2{
+width: 193px;
+height: 650px;
+margin: 2px;
+background-color: rgba(191, 230, 115, 0.507);
+border: 2px solid rgba(0, 228, 0, 0.877);
+border-radius: 10px;}
+
+i{font-weight: bolder;}
+
+#gamelist{
+margin: 1px;
+list-style: none;}
+
+#categories:hover{background-color: rgb(4, 68, 15);
+margin: 20px;
+padding: 5px;}
+
+#categories{text-decoration: none;
+    color: white;
+font-weight: bolder;
+margin: 18px;
+padding-top: 10px;
+padding-left: 10px;}
+
+#other:active{margin-left: 10px;
+color: brown;}
+
+.content3:nth-child(3){
+align-self: flex-end;}
+
+.content3{width: 428px;
+height: 400px;
+text-align: center;
+margin:1;
+border:2px solid rgb(252, 152, 169);
+border-radius: 8px ;
+background-color: rgba(250, 235, 215, 0.39);}
+
+.content3:nth-child(3){align-self: flex-start;}
+
+.content4{width: 100%;
+height: 150px;
+border: 2px solid rgba(0, 17, 255, 0.753);
+color:rgb(241, 239, 239);
+background-color: #0776b6;}
+.content4 a{
+    color: #fff;
+}
+h5{color: #fff;
+font-size: 20px;}

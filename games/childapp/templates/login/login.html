@@ -1,0 +1,59 @@
+<!DOCTYPE html>{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{text-align: center;
+        font-size: 20px;
+
+    }
+
+
+
+@media (min-width:200px){
+     div{width: 400px;
+            height: 500px;
+            background-color: rgba(240, 255, 255, 0.199);
+            margin-left: 37%;
+            margin-top: 50px;
+            margin-right: 30px;
+            margin-bottom: 20px;
+            padding: 8px;
+border: 1px solid rgb(126, 123, 123);
+border-radius: 8px;
+
+     }
+        }
+        .reset{margin-left: 80px;}
+        .i{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .f
+    {margin-right: 50px;}
+    .s{margin-left: 50px;}
+    </style>
+</head>
+<body style="background-image:url({% static 'img/lions.jpg' %})"><h1 style="background-image:linear-gradient(to right, green,yellow); text-align: center;">login page creation</h1>
+
+    <div> <h2 style="font-size: 30px;">login</h2><hr><br><br>
+       <form action="/action_page.php"> <label>Email id : </label>
+        <input type="text" name="user" maxlength="30" pattern="[A-Z][a-z],{0-9}{4},@gmail.com"  required  ><br><br>
+      <label>Password : </label>
+        <input type="password" name="pass" placeholder="8 pin" maxlength="8" required ><br><br><br>
+        <input type="submit" name="sign" value="sign in" size="20px" > <input class="reset" type="reset" name="reset" value="reset">
+        <br><br><br>
+        <P class="i" >forgot password</P>!!
+        <label class="f"><a href="un support" ><def title="forgot your password" >forgot</def></a> </label>
+        <label class="s"><a href="un support" title="sign up your account">sign up</a> </label>
+    </form>
+  <hr>sign in microsoft account<br>
+    <label><a href="un support" title="to sign in microsoft account">click here</a> </label>
+
+     microsoft windows 2007@gmail.com
+    </div>
+
+</body>
+</html>
